@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Outfit Recommender - Sign Up</title>
+<style>
+    body {
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(135deg, #e6ccff, #ffccf2);
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container {
+        display: flex;
+        width: 900px;
+        height: 550px;
+        background: rgba(255, 255, 255, 0.15);
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+        backdrop-filter: blur(10px);
+    }
+    .image-side {
+        flex: 1;
+        background: url('https://sdmntprwestus.oaiusercontent.com/files/00000000-68e4-6230-8fe7-830916f6d2fe/raw?se=2025-08-12T16%3A23%3A02Z&sp=r&sv=2024-08-04&sr=b&scid=5a6b27e5-8248-5a02-a6ba-8e956c58b134&skoid=a3412ad4-1a13-47ce-91a5-c07730964f35&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-12T13%3A32%3A36Z&ske=2025-08-13T13%3A32%3A36Z&sks=b&skv=2024-08-04&sig=Vg17AhiahOjXVl/dAl8jtwsjiKyPAi7J4p9x0Na4Rpg%3D') center/cover no-repeat;
+    }
+    .form-side {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 40px;
+        color: #333;
+    }
+    h2 {
+        margin-bottom: 20px;
+        font-size: 28px;
+        color: #6a0572;
+    }
+    input {
+        padding: 12px;
+        margin: 10px 0;
+        border: none;
+        border-radius: 10px;
+        outline: none;
+        background: rgba(255,255,255,0.8);
+        font-size: 16px;
+    }
+    button {
+        padding: 12px;
+        background: #d94bc9;
+        border: none;
+        color: white;
+        font-size: 16px;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-top: 10px;
+        transition: background 0.3s ease;
+    }
+    button:hover {
+        background: #b23cb0;
+    }
+    a {
+        text-decoration: none;
+        color: #6a0572;
+        font-weight: bold;
+        font-size: 14px;
+        display: block;
+        margin-top: 15px;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="image-side"></div>
+    <div class="form-side">
+        <h2>Smart Outfit Recommender</h2>
+        <h3>Create an Account</h3>
+        <input type="text" placeholder="Full Name">
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Password">
+        <input type="password" placeholder="Confirm Password">
+        <button>Sign Up</button>
+        <a href="login.html">Already have an account? Sign In</a>
+    </div>
+</div>
+</body>
+</html>
