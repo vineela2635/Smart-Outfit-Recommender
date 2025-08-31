@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #e6ccff, #ffccf2);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  width: 900px;
+  height: 550px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+  backdrop-filter: blur(10px);
+}
+
+.image-side {
+  flex: 1;
+  background: url('https://hips.hearstapps.com/hmg-prod/images/hbx110120inspoindex-020-6720ea86593ad.jpg?crop=0.9998047256395236xw:1xh;center,top&resize=980:*') center/cover no-repeat;
+}
+
+.form-side {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  color: #333;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #6a0572;
+}
+
+input {
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  background: rgba(255,255,255,0.8);
+  font-size: 16px;
+}
+
+button {
+  padding: 12px;
+  background: #d94bc9;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #b23cb0;
+}
+
+a {
+  text-decoration: none;
+  color: #6a0572;
+  font-weight: bold;
+  font-size: 14px;
+  display: block;
+  margin-top: 15px;
+}
